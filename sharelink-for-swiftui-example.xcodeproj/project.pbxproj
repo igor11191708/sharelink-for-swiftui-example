@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7899A7302C35A22A00E6FF04 /* sharelink-for-swiftui in Frameworks */ = {isa = PBXBuildFile; productRef = 7899A72F2C35A22A00E6FF04 /* sharelink-for-swiftui */; };
 		78A045F52C35329B0037A921 /* sharelink_for_swiftui_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A045F42C35329B0037A921 /* sharelink_for_swiftui_exampleApp.swift */; };
 		78A045F72C35329B0037A921 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A045F62C35329B0037A921 /* ContentView.swift */; };
 		78A045F92C35329C0037A921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A045F82C35329C0037A921 /* Assets.xcassets */; };
 		78A045FC2C35329C0037A921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A045FB2C35329C0037A921 /* Preview Assets.xcassets */; };
-		78A046042C3532DA0037A921 /* sharelink-for-swiftui in Frameworks */ = {isa = PBXBuildFile; productRef = 78A046032C3532DA0037A921 /* sharelink-for-swiftui */; };
 		78A046062C3533190037A921 /* CustomActivityItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A046052C3533190037A921 /* CustomActivityItemSource.swift */; };
 		78A0460C2C3536780037A921 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 78A0460B2C3536780037A921 /* README.md */; };
 		78A0462E2C353CBD0037A921 /* sharelink_swiftui.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 78A0462C2C353CBD0037A921 /* sharelink_swiftui.jpeg */; };
@@ -35,13 +35,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A046042C3532DA0037A921 /* sharelink-for-swiftui in Frameworks */,
+				7899A7302C35A22A00E6FF04 /* sharelink-for-swiftui in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78563D5A2C35A0BB003B87FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78A045E82C35329B0037A921 = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +56,7 @@
 				78A0460B2C3536780037A921 /* README.md */,
 				78A045F32C35329B0037A921 /* sharelink-for-swiftui-example */,
 				78A045F22C35329B0037A921 /* Products */,
+				78563D5A2C35A0BB003B87FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,7 +114,7 @@
 			);
 			name = "sharelink-for-swiftui-example";
 			packageProductDependencies = (
-				78A046032C3532DA0037A921 /* sharelink-for-swiftui */,
+				7899A72F2C35A22A00E6FF04 /* sharelink-for-swiftui */,
 			);
 			productName = "sharelink-for-swiftui-example";
 			productReference = 78A045F12C35329B0037A921 /* sharelink-for-swiftui-example.app */;
@@ -137,7 +145,7 @@
 			);
 			mainGroup = 78A045E82C35329B0037A921;
 			packageReferences = (
-				78A046022C3532DA0037A921 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */,
+				7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */,
 			);
 			productRefGroup = 78A045F22C35329B0037A921 /* Products */;
 			projectDirPath = "";
@@ -386,9 +394,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		78A046022C3532DA0037A921 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */ = {
+		7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/The-Igor/sharelink-for-swiftui.git";
+			repositoryURL = "https://github.com/The-Igor/sharelink-for-swiftui";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -397,9 +405,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		78A046032C3532DA0037A921 /* sharelink-for-swiftui */ = {
+		7899A72F2C35A22A00E6FF04 /* sharelink-for-swiftui */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 78A046022C3532DA0037A921 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */;
+			package = 7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */;
 			productName = "sharelink-for-swiftui";
 		};
 /* End XCSwiftPackageProductDependency section */

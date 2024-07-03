@@ -39,36 +39,43 @@ struct ContentView: View {
                 ShareLinkButton(item: sampleString) {
                     ButtonLabel(image: "square.and.arrow.up", text: "Share String", backgroundColor: .blue)
                 }
+                .accessibility(identifier: "Share String")
                 
                 // Share URL
                 ShareLinkButton(item: sampleURL) {
                     ButtonLabel(image: "square.and.arrow.up", text: "Share URL", backgroundColor: .green)
                 }
+                .accessibility(identifier: "Share URL")
                 
                 // Share Image
                 ShareLinkButton(item: sampleImage) {
                     ButtonLabel(image: "square.and.arrow.up", text: "Share Image", backgroundColor: .orange)
                 }
+                .accessibility(identifier: "Share Image")
                 
                 // Share Data
                 ShareLinkButton(item: sampleData) {
                     ButtonLabel(image: "square.and.arrow.up", text: "Share Data", backgroundColor: .purple)
                 }
+                .accessibility(identifier: "Share Data")
                 
                 // Share NSAttributedString
                 ShareLinkButton(item: sampleAttributedString) {
                     ButtonLabel(image: "square.and.arrow.up", text: "Share NSAttributedString", backgroundColor: .red)
                 }
+                .accessibility(identifier: "Share NSAttributedString")
                 
                 // Share Location
                 ShareLinkButton(item: sampleLocation) {
                     ButtonLabel(image: "square.and.arrow.up", text: "Share Location", backgroundColor: .yellow, textColor: .blue)
                 }
+                .accessibility(identifier: "Share Location")
                 
                 // Share Custom Activity
                 ShareLinkButton(itemSource: CustomActivityItemSource(text: "Hello, world!")) {
                     ButtonLabel(image: "square.and.arrow.up", text: "Share Custom Activity", backgroundColor: .blue)
                 }
+                .accessibility(identifier: "Share Custom Activity")
             }
             .padding()
         }
