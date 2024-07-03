@@ -1,0 +1,15 @@
+{
+  "originHash" : "d0abb2175e5c2b18489838ca18f4e6e0a0a62d61c3b5fb8be08d55eafb94d9dc",
+  "pins" : [
+    {
+      "identity" : "sharelink-for-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Igor/sharelink-for-swiftui.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2ff5e15c6a7ef501a51d53546cd2465d0be21269"
+      }
+    }
+  ],
+  "version" : 3
+}
