@@ -13,6 +13,7 @@
 		78A045FC2C35329C0037A921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A045FB2C35329C0037A921 /* Preview Assets.xcassets */; };
 		78A046042C3532DA0037A921 /* sharelink-for-swiftui in Frameworks */ = {isa = PBXBuildFile; productRef = 78A046032C3532DA0037A921 /* sharelink-for-swiftui */; };
 		78A046062C3533190037A921 /* CustomActivityItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A046052C3533190037A921 /* CustomActivityItemSource.swift */; };
+		78A0460C2C3536780037A921 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 78A0460B2C3536780037A921 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		78A045F82C35329C0037A921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78A045FB2C35329C0037A921 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78A046052C3533190037A921 /* CustomActivityItemSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActivityItemSource.swift; sourceTree = "<group>"; };
+		78A0460B2C3536780037A921 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		78A045E82C35329B0037A921 = {
 			isa = PBXGroup;
 			children = (
+				78A0460B2C3536780037A921 /* README.md */,
 				78A045F32C35329B0037A921 /* sharelink-for-swiftui-example */,
 				78A045F22C35329B0037A921 /* Products */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A0460C2C3536780037A921 /* README.md in Resources */,
 				78A045FC2C35329C0037A921 /* Preview Assets.xcassets in Resources */,
 				78A045F92C35329C0037A921 /* Assets.xcassets in Resources */,
 			);
