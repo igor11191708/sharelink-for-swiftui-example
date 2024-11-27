@@ -396,7 +396,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/The-Igor/sharelink-for-swiftui";
+			repositoryURL = "https://github.com/igor11191708/sharelink-for-swiftui";
 			requirement = {
 				branch = main;
 				kind = branch;
