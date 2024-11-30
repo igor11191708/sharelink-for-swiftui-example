@@ -1,13 +1,13 @@
 {
-  "originHash" : "15777242d23ffe28854b0abf1b2cfccedc411fff42fb36081983b7f84341bdd4",
+  "originHash" : "dec3e7b655e3b19c47b4cfcfc69785916d7173b53d8561c24ab672907b830c71",
   "pins" : [
     {
-      "identity" : "sharelink-for-swiftui",
+      "identity" : "share-link-swiftui-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftuiux/sharelink-for-swiftui",
+      "location" : "https://github.com/swiftuiux/share-link-swiftui-ios",
       "state" : {
         "branch" : "main",
-        "revision" : "d8ce8a54ea47dee19d9840f59dea4679d0904196"
+        "revision" : "45ef39bd792e90f31f2c0681084b0e85d7662684"
       }
     }
   ],
