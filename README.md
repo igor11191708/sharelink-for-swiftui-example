@@ -10,7 +10,7 @@ This example demonstrates how to use `ShareLinkButton` in SwiftUI to share vario
 
 ## Example Usage
 
-This example demonstrates how to use the functionality provided by the [package](https://github.com/swiftuiux/sharelink-for-swiftui). 
+This example demonstrates how to use the functionality provided by the [package](https://github.com/swiftuiux/share-link-swiftui-ios). 
 
 ![ShareLinkButton Example](https://github.com/swiftuiux/sharelink-for-swiftui-example/blob/main/img/sharelink_swiftui.jpeg)
 
