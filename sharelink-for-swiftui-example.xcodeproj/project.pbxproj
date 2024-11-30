@@ -145,7 +145,7 @@
 			);
 			mainGroup = 78A045E82C35329B0037A921;
 			packageReferences = (
-				7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-swiftui-ios" */,
+				7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */,
 			);
 			productRefGroup = 78A045F22C35329B0037A921 /* Products */;
 			projectDirPath = "";
@@ -394,9 +394,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-swiftui-ios" */ = {
+		7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/swiftuiux/sharelink-swiftui-ios";
+			repositoryURL = "https://github.com/swiftuiux/sharelink-for-swiftui";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -407,7 +407,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		7899A72F2C35A22A00E6FF04 /* sharelink-for-swiftui */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-swiftui-ios" */;
+			package = 7899A72E2C35A1C800E6FF04 /* XCRemoteSwiftPackageReference "sharelink-for-swiftui" */;
 			productName = "sharelink-for-swiftui";
 		};
 /* End XCSwiftPackageProductDependency section */
